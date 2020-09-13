@@ -46,6 +46,7 @@ call signature#utils#Set('g:SignatureMap',                     {}               
 "" Commands, Autocmds and Maps                                                                                      {{{1
 "
 call signature#utils#Maps('create')
+call signature#sign#Refresh(1)
 
 if has('autocmd')
   augroup sig_autocmds
